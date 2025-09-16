@@ -1,0 +1,35 @@
+.footer {
+    color: black;
+    background-color: #eee5dc;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    bottom: 0;
+    min-height: 10vh;
+    height: auto;
+    width: 100%;
+}
+
+/* smaller screens */
+
+@media (max-width:768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0.4rem;
+    }
+}
+
+@media (max-width:480px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
