@@ -27,6 +27,7 @@
     .footer {
         display: flex;
         flex-direction: column;
+        font-size: smaller;
     }
 
     h3 {
